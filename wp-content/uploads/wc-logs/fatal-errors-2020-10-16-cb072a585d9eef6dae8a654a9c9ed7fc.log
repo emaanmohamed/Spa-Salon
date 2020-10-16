@@ -1,0 +1,9 @@
+2020-10-16T11:30:16+00:00 CRITICAL Uncaught Error: Call to a member function asXML() on bool in C:\xampp\htdocs\woocommerce\wp-content\plugins\woo-usps-simple-shipping\class-shipping-usps.php:272
+Stack trace:
+#0 C:\xampp\htdocs\woocommerce\wp-content\plugins\woo-usps-simple-shipping\class-shipping-usps.php(298): USPS_Simple_Shipping_Method->getUnitedResponse(Array)
+#1 C:\xampp\htdocs\woocommerce\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-shipping-method.php(233): USPS_Simple_Shipping_Method->calculate_shipping(Array)
+#2 C:\xampp\htdocs\woocommerce\wp-content\plugins\woocommerce\includes\class-wc-shipping.php(345): WC_Shipping_Method->get_rates_for_package(Array)
+#3 C:\xampp\htdocs\woocommerce\wp-content\plugins\woocommerce\includes\class-wc-shipping.php(260): WC_Shipping->calculate_shipping_for_package(Array, 0)
+#4 C:\xampp\htdocs\woocommerce\wp-content\plugins\woocommerce\includes\class-wc-cart.php(1381): WC_Shipping->calculate_shipping(Array)
+#5 C:\xampp\htdocs\woocommerce\wp-content\plugins\woocommerce\includes\class-wc-c in C:\xampp\htdocs\woocommerce\wp-content\plugins\woo-usps-simple-shipping\class-shipping-usps.php on line 272
+
