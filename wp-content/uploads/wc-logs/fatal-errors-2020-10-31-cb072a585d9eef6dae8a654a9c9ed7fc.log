@@ -1,0 +1,21 @@
+2020-10-31T17:56:34+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function remove_action(), 1 passed in C:\xampp\htdocs\woocommerce\wp-content\themes\carolinaspa\functions.php on line 3 and at least 2 expected in C:\xampp\htdocs\woocommerce\wp-includes\plugin.php:583
+Stack trace:
+#0 C:\xampp\htdocs\woocommerce\wp-content\themes\carolinaspa\functions.php(3): remove_action('woocommerce_sin...')
+#1 C:\xampp\htdocs\woocommerce\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\woocommerce\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\woocommerce\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\woocommerce\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\woocommerce\wp-includes\plugin.php on line 583
+
+2020-10-31T17:57:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_filter(), 1 passed in C:\xampp\htdocs\woocommerce\wp-content\themes\carolinaspa\functions.php on line 9 and at least 2 expected in C:\xampp\htdocs\woocommerce\wp-includes\plugin.php:108
+Stack trace:
+#0 C:\xampp\htdocs\woocommerce\wp-content\themes\carolinaspa\functions.php(9): add_filter('')
+#1 C:\xampp\htdocs\woocommerce\wp-settings.php(514): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\woocommerce\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\woocommerce\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\woocommerce\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\woocommerce\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\woocommerce\wp-includes\plugin.php on line 108
+

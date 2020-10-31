@@ -9,3 +9,8 @@ License:
 License URL: http://www.gnu.org/license/gpl-2.0.html
 Text Domain
  */
+
+
+.single_add_to_cart_button::before {
+    margin-right: 20px; !important;
+}
